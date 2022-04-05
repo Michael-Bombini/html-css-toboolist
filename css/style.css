@@ -30,7 +30,7 @@ body {
 }
 
 .pink {
-    background-color: #E9B0D1;
+    background-color: #D863A1;
 }
 
 .olive {
@@ -162,3 +162,35 @@ p {
     margin: 20px 0px;
     padding-left: 20px;
 }
+
+
+.yes {
+    color: green;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 50% ;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 5px;
+
+}
+
+.no {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 50% ;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 5px;
+
+}
+
+
+/* ----------------------------------------------- */
