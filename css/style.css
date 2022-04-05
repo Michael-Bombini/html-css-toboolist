@@ -50,8 +50,10 @@ body {
 }
 
 .text-dark-gray {
-    color: #444851;
+    color: #4B4F58;
 }
+
+
 
 /* ----------------------------------------------- */
 
@@ -118,7 +120,7 @@ header img {
 /* ----------------------------------------------- */
 
 
-/* stile del div tasks (contenuto dei vari  */
+/* stile del div tasks (container dei vari div (new , today , upcoming)   */
 
 .tasks {
     padding: 50px;
@@ -127,3 +129,36 @@ header img {
 
 /* ----------------------------------------------- */
 
+
+/* stile del div new , today , upcoming   */
+
+
+
+.section-task {
+    margin-top: 30px;
+    padding: 10px;
+  
+}
+
+
+p {
+    font-size: 20px;
+    color: #000;
+    display: inline-block;
+}
+
+.info {
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.list-task {
+    list-style-type: none;
+}
+
+.list-task li {
+    margin: 20px 0px;
+    padding-left: 20px;
+}
