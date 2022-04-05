@@ -5,7 +5,7 @@
     padding: 0 ;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
 body {
@@ -37,8 +37,16 @@ body {
     background-color: #B0C926;
 }
 
+.white {
+    background-color: #fff;
+}
+
 .text-white {
     color: #fff;
+}
+
+.text-gray {
+    color: #C5CBD0;
 }
 
 /* ----------------------------------------------- */
@@ -62,7 +70,7 @@ header img {
 
 /* ----------------------------------------------- */
 
-
+/* stile del container */
 
 .container {
     width: 1000px;
@@ -73,6 +81,36 @@ header img {
   
 }
 
+
+/* ----------------------------------------------- */
+
+
+/* stile del div add (contiene 2 button add task e add section)  */
+
 .add {
-    padding: 20px;
+    padding: 20px 60px;
+    border-bottom: 1px solid #C5CBD0;
 }
+
+
+.task {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    margin : 0 5px;
+}
+
+.section {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px;
+    margin : 0 5px;
+    border: 2px solid #C5CBD0;
+}
+
+
+/* ----------------------------------------------- */
+
+
