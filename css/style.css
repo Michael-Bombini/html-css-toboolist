@@ -45,8 +45,12 @@ body {
     color: #fff;
 }
 
-.text-gray {
+.text-light-gray {
     color: #C5CBD0;
+}
+
+.text-dark-gray {
+    color: #444851;
 }
 
 /* ----------------------------------------------- */
@@ -113,4 +117,13 @@ header img {
 
 /* ----------------------------------------------- */
 
+
+/* stile del div tasks (contenuto dei vari  */
+
+.tasks {
+    padding: 50px;
+}
+
+
+/* ----------------------------------------------- */
 
